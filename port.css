@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    heigth: 500vh;
+}
+
+section {
+    background-color: #450a0a;
+}
+
+.intro {
+    display: flex;
+    padding: 15px 50px;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+ a {
+    text-decoration: none;
+    color: #fff;
+    margin: 25px;
+    font-size: 2.0rem;
+}
+
+img {
+   heigth: 220px;
+   width: 400px;
+   border-radius: 12px;
+   margin: 30px 32px;
+   display: flex;
+}
+
+h2 {
+    color: #fff;
+    font-size: 3.0rem;
+    display: flex;
+    text-align: justify;
+    align-self: flex-start;
+    justify-items: flex-end;
+}
+
+.intro p {
+    color: #fff;
+    font-size: 2.5rem;
+    display: flex;
+    text-align: justify;
+    align-self: flex-end;
+}
