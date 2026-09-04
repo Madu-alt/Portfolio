@@ -1,54 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    heigth: 500vh;
+body {
+    background: #450a0a;
 }
 
-section {
-    background-color: #450a0a;
-}
 
-.intro {
-    display: flex;
-    padding: 15px 50px;
-    flex-wrap: wrap;
-}
-
-nav {
+nav{
     display: flex;
     justify-content: center;
-    gap: 45px;
+    gap: 60px;
+    margin: 20px;
 }
 
- a {
+
+a{
     text-decoration: none;
-    color: #fff;
-    margin: 25px;
+    color: aliceblue;
     font-size: 2.0rem;
 }
 
+
+.intro {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+}
+
+
 img {
-   heigth: 220px;
-   width: 400px;
-   border-radius: 12px;
-   margin: 30px 32px;
-   display: flex;
+  height: 250px;
+  width: 400px;
+  border-radius: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.intro-texto {
+  display: flex;
+  flex-direction: column; 
+  text-align: justify;
+  gap: 10px; 
 }
 
 h2 {
-    color: #fff;
-    font-size: 3.0rem;
-    display: flex;
-    text-align: justify;
-    align-self: flex-start;
-    justify-items: flex-end;
+  color: #e4c1a6;
+  font-size: 3.0rem;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 5px;
 }
 
 .intro p {
-    color: #fff;
-    font-size: 2.5rem;
-    display: flex;
-    text-align: justify;
-    align-self: flex-end;
+  color: #fff;
+  font-size: 1.8rem; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-indent: 50px;
+  line-height: 1.5;
 }
