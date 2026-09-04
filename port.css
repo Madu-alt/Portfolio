@@ -1,34 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background: #450a0a;
+    height: 500vh;
 }
 
 
 nav{
     display: flex;
     justify-content: center;
+    align-items: center;
+    background: #1a1618;
     gap: 60px;
-    margin: 20px;
+    height: 80px;
 }
 
 
-a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 2.0rem;
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 2.0rem;
 }
 
 
 .intro {
+  height: 80vh;
   padding: 50px;
   display: flex;
   align-items: center;
+  background-image: radial-gradient(circle, #b68c8c, #8d6da8);
   gap: 40px; 
 }
 
 
 img {
-  height: 250px;
-  width: 400px;
+  height: 400px;
+  width: 500px;
   border-radius: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -40,14 +51,18 @@ img {
   gap: 10px; 
 }
 
-h2 {
-  color: #e4c1a6;
+h1 {
+  color: #fffdfc;
+  background: #ffffff52;
+  border-radius: 12px;
   font-size: 3.0rem;
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
   letter-spacing: 5px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .intro p {
@@ -56,4 +71,13 @@ h2 {
   font-family: "Lucida Console", "Courier New", monospace;
   text-indent: 50px;
   line-height: 1.5;
+}
+
+.sobreMim {
+  background: #1a1618;
+  height: 80vh;
+}
+
+.sobreMim h2 {
+
 }
