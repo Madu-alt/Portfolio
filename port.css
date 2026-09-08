@@ -5,7 +5,6 @@
 }
 
 body {
-    background: #450a0a;
     height: 500vh;
 }
 
@@ -97,14 +96,27 @@ h1 {
 .cardSobreMim {
   background-color: aliceblue;
   border-radius: 12px;
-  width: 300px;
+  width: 400px;
   height: 350px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-top: 50px;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.cardSobreMim p {
+  margin: 20px 30px;
 }
 
 #phrase {
   background-color: palevioletred;
   border-radius: 5px;
+}
+
+svg {
+  margin: 20px;
+}
+
+#destaque {
+  align-self: flex-start;
 }
