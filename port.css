@@ -175,15 +175,19 @@ h3 {
   color: #fff;
   font-size: 1.8rem;
   width: 600px;
+  text-align: justify;
 }
 
-form {
+#labelContainer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
   width: 100px:
-  height: 200px;
-  margin: 0 10px 0 0;
+  height: 100px;
+  margin: 0 50px 0 0;
 }
+
 
 input {
   border: none;
@@ -201,7 +205,8 @@ input {
 
 #textoForm {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 50px 0 0 0;
 }
 
 button {
@@ -210,4 +215,11 @@ button {
   width: 120px;
   height: 60px;
   border-radius: 10px;
+  color: aliceblue;
+}
+
+#buttonSend {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 120px;
 }
