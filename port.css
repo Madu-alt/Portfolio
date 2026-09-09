@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-    height: 500vh;
-}
-
-
 nav{
     display: flex;
     justify-content: center;
@@ -79,11 +74,11 @@ h1 {
   height: 80vh;
 }
 
-.sobreMim h2 {
+h2 {
   color: #fff;
   font-size: 2.6rem;
   text-align: center;
-  padding: 40px 0 0 0;
+  padding: 40px 0 30px 0;
 }
 
 .containerCard{
@@ -119,4 +114,82 @@ svg {
 
 #destaque {
   align-self: flex-start;
+}
+
+.habilidades {
+  background-color: #8d6da8;
+  height: 80vh;
+}
+
+.itemBox {
+  background-color: aliceblue;
+  border-radius: 40px;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+}
+
+#software, #framework, #linguagens {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+h3 {
+  color: #fff;
+  font-size: 2.0rem;
+  text-align: center;
+  padding: 40px 0 50px 0;
+}
+
+.habilidades p {
+  text-align: center;
+  padding: 15px 0 0 0;
+  font-size: 1.5rem;
+}
+
+#projetos {
+  background-color: #8e6da8a2;
+  height: 80vh;
+}
+
+#projetosContainer {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.projetosItem {
+  background: aliceblue;
+  width: 320px;
+  height: 400px;
+  border-radius: 12px;
+}
+
+#final {
+  background: #1a1618;
+  height: 80vh;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 300px:
+  height: 300px;
+  margin: 0 10px 0 0;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  width: 180px;
+  height: 80px;
+}
+
+#mensagem {
+   border: none;
+   border-radius: 5px;
+   width: 420px;
+   height: 200px;
 }

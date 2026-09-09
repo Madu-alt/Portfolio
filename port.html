@@ -15,12 +15,12 @@
 </head>
 
 <body>
-    <main>
-        <nav>
+    <nav>
             <a href="#">Início</a>
             <a href="#">Habilidades</a>
             <a href="#">Projetos</a>
-        </nav>
+    </nav>
+    <main>
         <section>
             <div class="intro">
                 <img src="./img/eu.jfif" alt="Imagem da autora do Portfólio" />
@@ -69,7 +69,9 @@
             </div>
         </section>
 
-        <section class="Habilidades">
+        <section class="habilidades">
+            <h2>Habilidades</h2>
+            <h3>Software</h3>
             <div id="software">
                 <div class="itemBox">
                     <p>Figma</p>
@@ -80,8 +82,12 @@
                 <div class="itemBox">
                     <p>Excel</p>
                 </div>
+                <div class="itemBox">
+                    <p>Power BI</p>
+                </div>
             </div>
 
+            <h3>Frameworks</h3>
             <div id="framework">
                 <div class="itemBox">
                     <p>Tailwind</p>
@@ -94,6 +100,7 @@
                 </div>
             </div>
 
+            <h3>Linguagens</h3>
             <div id="linguagens">
                 <div class="itemBox">
                     <p>HTML e CSS</p>
@@ -107,7 +114,37 @@
             </div>
         </section>
 
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div id="projetosContainer">
+                <div class="projetosItem"></div>
+                <div class="projetosItem"></div>
+                <div class="projetosItem"></div>
+            </div>
+        </section>
+
+        <section id="final">
+            <h2>Envie uma mensagem ✨</h2>
+            <p>lorem ipsun lorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsun lorem ipsunlorem ipsunlorem ipsun!</p>
+            <div id="labelContainer">
+                <form autocomplete="on">
+                    <label for="text">Nome</label> <br>
+                    <input  type="text" id="Nickname" name="nome" placeholder="Insira seu nome*" required>
+
+                    <label for="email"> Email: </label><br>
+                    <input type="email" id="email" name="email" placeholder="Insira seu email*" required>
+
+                    <label for="text"> Mensagem:  </label><br>
+                    <input type="text" id="mensagem" name="mensagem" placeholder="Insira sua mensagem*" maxlength="120" required>
+                </form>
+            </div>
+            <button>Enviar</button>
+        </section>
+
     </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
