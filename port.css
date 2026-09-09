@@ -171,12 +171,17 @@ h3 {
   height: 80vh;
 }
 
+#final p{
+  color: #fff;
+  font-size: 1.8rem;
+  width: 600px;
+}
+
 form {
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
-  width: 300px:
-  height: 300px;
+  width: 100px:
+  height: 200px;
   margin: 0 10px 0 0;
 }
 
@@ -192,4 +197,17 @@ input {
    border-radius: 5px;
    width: 420px;
    height: 200px;
+}
+
+#textoForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  background: #8d6da8;
+  width: 120px;
+  height: 60px;
+  border-radius: 10px;
 }

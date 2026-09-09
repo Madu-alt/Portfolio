@@ -16,9 +16,9 @@
 
 <body>
     <nav>
-            <a href="#">Início</a>
-            <a href="#">Habilidades</a>
-            <a href="#">Projetos</a>
+        <a href="#">Início</a>
+        <a href="#">Habilidades</a>
+        <a href="#">Projetos</a>
     </nav>
     <main>
         <section>
@@ -125,18 +125,22 @@
 
         <section id="final">
             <h2>Envie uma mensagem ✨</h2>
-            <p>lorem ipsun lorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsun lorem ipsunlorem ipsunlorem ipsun!</p>
-            <div id="labelContainer">
-                <form autocomplete="on">
-                    <label for="text">Nome</label> <br>
-                    <input  type="text" id="Nickname" name="nome" placeholder="Insira seu nome*" required>
+            <div id="textoForm">
+                <p>lorem ipsun lorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsunlorem ipsun
+                    lorem ipsunlorem ipsunlorem ipsun!</p>
+                <div id="labelContainer">
+                    <form autocomplete="on">
+                        <label for="nome">Nome</label> <br>
+                        <input type="text" id="nome" name="nome" placeholder="Insira seu nome*" required>
 
-                    <label for="email"> Email: </label><br>
-                    <input type="email" id="email" name="email" placeholder="Insira seu email*" required>
+                        <label for="email"> Email: </label><br>
+                        <input type="email" id="email" name="email" placeholder="Insira seu email*" required>
 
-                    <label for="text"> Mensagem:  </label><br>
-                    <input type="text" id="mensagem" name="mensagem" placeholder="Insira sua mensagem*" maxlength="120" required>
-                </form>
+                        <label for="messagem"> Mensagem: </label><br>
+                        <input type="text" id="mensagem" name="mensagem" placeholder="Insira sua mensagem*"
+                            maxlength="120" required>
+                    </form>
+                </div>
             </div>
             <button>Enviar</button>
         </section>
