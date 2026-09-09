@@ -193,7 +193,7 @@ input {
   border: none;
   border-radius: 5px;
   width: 180px;
-  height: 80px;
+  height: 40px;
 }
 
 #mensagem {
@@ -221,5 +221,9 @@ button {
 #buttonSend {
   display: flex;
   justify-content: flex-end;
-  margin: 30px 120px;
+  margin: 30px 400px;
+}
+
+label {
+  color: #fff;
 }
