@@ -227,3 +227,19 @@ button {
 label {
   color: #fff;
 }
+
+footer {
+  background: #1a1618;
+}
+
+#pinkContainer {
+  background: pink;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+#iconContainer {
+  display: flex;
+  justify-content: center;
+}
