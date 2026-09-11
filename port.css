@@ -188,7 +188,6 @@ h3 {
 
 #labelContainer {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 60px;
   width: 100px:
@@ -205,10 +204,10 @@ input {
 }
 
 #mensagem {
-   border: none;
-   border-radius: 5px;
-   width: 420px;
-   height: 200px;
+  border: none;
+  border-radius: 5px;
+  width: 420px;
+  height: 200px;
 }
 
 #textoForm {
@@ -222,8 +221,13 @@ button {
   background: #8d6da8;
   width: 120px;
   height: 60px;
-  border-radius: 10px;
+  border-radius: 15px;
   color: aliceblue;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
 }
 
 #buttonSend {
@@ -275,3 +279,9 @@ input::placeholder {
   font-style: normal;
   letter-spacing: 1px;
 }
+
+.supForm {
+  display: flex;
+  justify-content: space-between;
+}
+
