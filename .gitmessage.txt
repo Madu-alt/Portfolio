@@ -1,0 +1,8 @@
+# [Tipo]: Breve resumo do que foi feito (máx. 50 caracteres)
+# Ex: feat, fix, docs, style, refactor, test
+
+# Descrição detalhada (opcional):
+# Explique o porquê da mudança e o que foi alterado.
+
+# Referências / Issues (opcional):
+# Ex: Closes #123
